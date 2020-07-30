@@ -1,0 +1,503 @@
+/*HOME PAGE*/
+.home1{
+    position: relative;
+    height: 660px;
+    background-color: rgba(255, 181, 0, 0.65);
+}
+
+
+.home1 h3{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 400px;
+    transform: translate(-45%, -50%);
+    font-size: 60px;
+    font-family:'Marck Script', cursive;
+}
+.home1 h1{
+    width: 95%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    top:55%;
+    width:450px;
+}
+.home1 button{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:80%;
+    left:50%;
+    width: 200px;
+}
+.home2 ,.home2-2, .home2-1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.parahome{
+    height: 50%;
+    width: 400px;
+    margin: 10% auto;
+}
+.parahome h3{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.home2-2 button{
+    margin-top: 10%;
+}
+#navbar {
+    display: block;
+    transition: top 0.3s;
+}
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.img1 { background-image: url("home3background.jpg"); }
+.img2 { background-image: url("homebackground2.png"); }
+.imghome4{background-image: url("home4bg.png")}
+.imgabout{background-image: url("home4.png")}
+.home3{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:500px;
+    width: 100%;
+}
+.home3-1{
+    width: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+}
+.home3 h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Source Code Pro', monospace;
+}
+.home3 h3{
+    font-weight: bolder;
+}
+.home4{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.home4-1{
+    position: relative;
+    width:400px;
+    padding-top: 40px;
+    margin:auto;
+}
+.home4-1 img{
+    width: 400px;
+}
+.home5group{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    width: 100%;
+}
+.homecard{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding:0;
+}
+.home5-1 {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    position: relative;
+}
+.imagehome5 {
+    height: 100%;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.home5-1:hover .imagehome5 {
+    background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+
+.home5-1:hover .middle {
+  opacity: 1;
+}
+.feedbackbtn{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding:0;
+    margin: 0;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+}
+footer .container{
+    padding: 65px;
+}
+footer h2{
+    font-size: 30px;
+}
+footer p{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.homeform button{
+    margin: auto;
+    width: 100%;
+    font-size: 130%;
+    border:white 2px solid;
+}
+
+
+/*MENU PAGE*/
+.menuheader{
+    margin: 0;
+    background-color: rgba(82, 210, 192, 0.58);
+}
+.menuheader h1{
+    font-weight: bolder;
+    font-size: 90px;
+    padding:30px 0 90px 0;
+    margin: 0;
+}
+.menuheader h3{
+    padding: 30px;
+    margin: 0;
+    font-family:'Marck Script', cursive;
+    font-size: 40px;
+}
+.menubody{
+    padding-top: 80px;
+}
+.menubody .card{
+    border: none;
+    margin:20px 4.1667% 60px;
+}
+.menualign{
+    width: 100px;
+    margin:10px auto;
+}
+.price{
+    font-size: 30px;
+}
+
+
+/*ABOUT US PAGE*/
+.aboutheader{
+    margin: 0;
+    background-color: rgba(208, 152, 203, 0.58);
+}
+.aboutheader h1 {
+    font-weight: bolder;
+    font-size: 90px;
+    padding: 30px 0 90px 0;
+    margin: 0;
+}
+.aboutheader h3{
+    padding: 30px;
+    margin: 0;
+    font-family:'Marck Script', cursive;
+    font-size: 40px;
+}
+.aboutbody h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+.aboutbody h4{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-family:'Marck Script', cursive;
+}
+.aboutalign{
+    padding: 70px 0 50px;
+    width: 550px;
+    margin: auto;
+}
+.aboutbg{
+    height:400px;
+}
+
+
+/*SPECIALS PAGE*/
+.specialheader{
+    margin: 0;
+    background-color: rgba(232, 167, 114, 0.56);
+}
+.specialheader h1 {
+    font-weight: bolder;
+    font-size: 90px;
+    padding: 30px 0 90px 0;
+    margin: 0;
+}
+.specialheader h3{
+    padding: 30px;
+    margin: 0;
+    font-family:'Marck Script', cursive;
+    font-size: 40px;
+}
+.specialbody{
+    padding-top: 80px;
+}
+.specialbody .card{
+    border: none;
+    margin:20px 4.1667% 60px;
+}
+.menualign{
+    width: 100px;
+    margin:10px auto;
+}
+.price{
+    font-size: 30px;
+}
+.specialText{
+    /*font-weight: bolder;*/
+    font-size:27px ;
+    margin-bottom: 50px;
+}
+
+/*DETAIL PRODUCTS PAGE*/
+.image-price{
+    margin-top:80px;
+}
+.image-price .detailImg{
+    padding: 0;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+.price-box{
+    padding: 0;
+    margin: auto;
+    display: block;
+    border: 1px black solid;
+    width: 90%;
+    height: 90%;
+}
+.detailalign{
+    width: 100px;
+    margin:20px auto;
+}
+.price-box h4{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.price-box p{
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 30px;
+    /*margin-top: 10%;*/
+    /*position: absolute;*/
+    /*transform: translate(-50%,-50%);*/
+    /*top:50%;*/
+    /*left:50%;*/
+}
+.details{
+    margin-top: 20px;
+}
+.details h2 ,h3{
+    margin-bottom: 20px;
+}
+.details li{
+    list-style: none;
+}
+.boxphp{
+    box-shadow: 10px 10px 5px grey;
+    border: grey solid 1px;
+}
+
+
+@media (max-width: 1200px) {
+    .price-box h4{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .price-box h4{
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    .price-box p{
+        font-size: 25px;
+    }
+    .price-box p{
+        margin-top: 10px;
+    }
+    .detailalign{
+        margin:15px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .home1 h1{
+        max-width: 400px;
+        font-size: 70px;
+    }
+    .logo{
+        margin-top: -20px;
+        max-width: 400px;
+    }
+    .bg-image {
+        background-attachment: scroll;
+    }
+     .home4 img{
+        max-width: 300px;
+    }
+    .home4-1{
+        max-width: 300px;
+    }
+    .aboutalign{
+        padding: 50px 0 30px;
+        width: 450px;
+    }
+    /*.price-box{*/
+    /*    margin-top: 50px;*/
+    /*    margin-left: 0;*/
+    /*    height:300px;*/
+    /*}*/
+    .price-box h4{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .price-box{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 576px) {
+    /*HOME PAGE*/
+    .home1 h1 {
+        max-width: 350px;
+        font-size: 50px;
+    }
+
+    .home1 h3 {
+        transform: translate(-47%, -50%);
+        max-width: 310px;
+        font-size: 50px;
+    }
+
+    .logo {
+        margin-top: -20px;
+        max-width: 300px;
+    }
+
+    .parahome {
+        max-width: 300px;
+    }
+
+    .home3 h1 {
+        font-size: 50px;
+    }
+
+    .home3 {
+        max-height: 300px;
+    }
+
+    .home4 img {
+        max-width: 200px;
+    }
+
+    .home4-1 {
+        max-width: 200px;
+    }
+
+    /*MENU PAGE*/
+    .menuheader h3 {
+        font-size: 0;
+        padding: 0;
+    }
+
+    .menuheader h1 {
+        font-size: 50px;
+        padding: 50px 0 50px 0;
+    }
+
+    .menubody {
+        padding-top: 50px;
+    }
+
+    /*ABOUT US PAGE*/
+    .aboutheader h3 {
+        font-size: 0;
+        padding: 0;
+    }
+
+    .aboutheader h1 {
+        font-size: 50px;
+        padding: 50px 0 50px 0;
+    }
+
+    .aboutalign {
+        width: 300px;
+    }
+
+    /*SPECIALS PAGE*/
+    .specialheader h3 {
+        font-size: 0;
+        padding: 0;
+    }
+
+    .specialheader h1 {
+        font-size: 50px;
+        padding: 50px 0 50px 0;
+    }
+    .image-price{
+        margin-top:40px;
+    }
+
+/*    DETAIL PRODUCTS PAGE*/
+
+/*    .image-price{*/
+/*        margin: auto;*/
+/*        width: 80%;*/
+/*    }*/
+}
+
