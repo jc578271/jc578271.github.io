@@ -1,5 +1,5 @@
 <?php
-$dbc=mysqli_connect('localhost','root','','tropical treats');
+$dbc=mysqli_connect('localhost','root','','tropical_treats');
 if(!$dbc){
     echo "connect fail!";
 }
